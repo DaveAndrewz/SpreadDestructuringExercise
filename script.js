@@ -71,4 +71,21 @@ const all = [
     ...bonus["third"]
 ];
 
-const [one, two, three, four, five, six, seven, eight, nine] = all;
+// ! OR
+
+// const all = [
+//     ...bonus.first,
+//     ...bonus.second,
+//     ...bonus.third
+// ];
+
+// ! Destructuring the ALL array ! \\
+// const [one, two, three, four, five, six, seven, eight, nine] = all;
+
+// ! Destructuring the BONUS object ! \\
+
+const {first, second, third} = bonus;
+const [one, two, three] = first;
+const [four, five, six] = second;
+const [seven, eight, nine] = third;
+

@@ -54,7 +54,7 @@ const moreAvengers = {
 // 4e.
 const {blackWidow: nat, ...other} = moreAvengers;
 // 4f.
-console.log(moreAvengers);
+console.log(nat, other);
 
 // BONUS
 
